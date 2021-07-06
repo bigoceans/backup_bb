@@ -1,0 +1,155 @@
+# site name
+prefixName: 🦋
+siteName: BIGOcean's Blog
+
+# favicon and site master avatar
+
+favicon: /images/favicon.ico
+avatar: /img/custom/avatar.jpg
+url: https://www.cnblogs.com/BIGOcean
+description: 面朝大海，春暖花开！
+cdn: https://cdn.jsdelivr.net/gh/bigoceans/cdn
+pjax: 1 # 当你点击一个链接，不是页面跳转，只是站内页面刷新。1开启
+
+mathjax: 0 # 数学公式 1开启
+
+notice: 欢迎来到大海的博客
+lazyloadImg: https://cdn.jsdelivr.net/gh/bigoceans/cdn/img/loader/orange.progress-bar-stripe-loader.svg
+
+menus:
+  首页: { path: /, fa: fa-fort-awesome faa-shake }
+
+  归档: { path: /archives, fa: fa-archive faa-vertical, submenus: {  
+    技术: {path: /categories/技术/, fa: fa-code },
+    安卓: {path: /categories/安卓/, fa: fa-android faa-pulse }, 
+    微软: {path: /categories/微软/, fa: fa-windows }, 
+    Win趣: {path: /categories/Win趣/, fa: fa-check },
+    随想: {path: /categories/随想/, fa: fa-commenting-o },
+    转载: {path: /categories/转载/, fa: fa-book }
+  } }
+
+  学习: { path: /archives, fa: fa-graduation-cap faa-shake , submenus: { 
+    语言类: {path: /tags/语言类/, fa: fa-television},
+    网络类: {path: /tags/网络类/, fa: fa-edit}, 
+    脚本类: {path: /tags/脚本类/, fa: fa-microchip},
+    算法类: {path: /tags/算法类/, fa: fa-bank}
+  } }
+
+  清单: { path: javascript:;, fa: fa-list-ul faa-vertical, submenus: { 
+    书单: {path: /tags/悦读/, fa: fa-th-list faa-bounce }, 
+    番组: {path: /bangumi/, fa: fa-film faa-vertical }, 
+    歌单: {path: /music/, fa: fa-headphones faa-bounce },
+    图集: {path:  https://bigocean1.lofter.com, fa: fa-photo faa-vertical},
+    视频: {path: https://bigoceana.gitee.io/videos, fa: fa-play-circle faa-bounce }
+  } }
+
+  留言板: { path: /comment/, fa: fa-pencil-square-o faa-tada }
+  友人帐: { path: /links/, fa: fa-link faa-shake }
+  弹幕: { path: https://bigoceana.gitee.io/bigocean111/ , fa: fa-comments } 
+  赞赏: { path: /donate/, fa: fa-heartbeat faa-tada }
+  关于: { path: javascript:;, fa: fa-vcard faa-tada, submenus: {
+    我的: {path: /about/, fa: fa-user faa-tada},
+  } }
+  RSS: { path: /atom.xml, fa: fa-rss faa-vertical }
+
+  
+
+
+# Home page sort type: -1: newer first，1: older first.
+homePageSortType: -1
+# Home page article shown number)
+homeArticleShown: 10
+# 背景图片 更好的修改
+bg:
+  - https://gitee.com/bigoceana/cdn/raw/master/img/bg/1bg.webp
+  - https://gitee.com/bigoceana/cdn/raw/master/img/bg/2bg.webp
+  - https://gitee.com/bigoceana/cdn/raw/master/img/bg/3bg.webp
+  - https://gitee.com/bigoceana/cdn/raw/master/img/bg/4bg.webp
+  - https://gitee.com/bigoceana/cdn/raw/master/img/bg/5bg.webp
+  - https://gitee.com/bigoceana/cdn/raw/master/img/bg/6bg.webp
+  - https://gitee.com/bigoceana/cdn/raw/master/img/bg/7bg.webp
+
+# 背景图片样式 空 原图效果 filter-dim 阴影 filter-grid 横条 filter-dot 点点
+bgclass: filter-dot
+
+# startdash 面板url, title, desc img
+startdash: 
+  - {url: https://8r0suy.coding-pages.com, title: 爱心树, desc: 一个秘密的地方, img: /img/startpics/2.jpg}
+  - {url: https://66qxqw.coding-pages.com/, title: 小游戏, desc: 各种有趣的小游戏全在这里啦, img: /img/startpics/1.jpg}
+  - {url: https://uh2ys4.coding-pages.com/, title: 导航页, desc: 各种有用的网页集合全在这里啦, img: /img/link/4.jpg}
+
+
+
+# your site build time or founded date
+siteBuildingTime: 02/28/2020
+
+#social  url, img PC端配置
+social:
+  GitHub: {url: https://github.com/bigoceans/, img: /img/social/github.png}
+  新浪: {url: https://weibo.com/p/1005052816637892/home?from=page_100505&mod=TAB&is_all=1#place, img: /img/social/sina.png}
+  QQ音乐: {url: https://y.qq.com/n/yqq/playlist/6970849799.html, img: /img/social/qqmusic.png}
+  知乎: {url: https://www.zhihu.com/people/da-hai-54-28, img: /img/social/zhihu.png}
+  邮箱: {url: https://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=E3F6dHxwdnJ9IlNlemM9YmI9cHx_ ,  img: /img/social/email.svg}
+  wechat: {url: /#, qrcode: /img/custom/weixing.png, img: /img/social/wechat.png}
+
+#social  url, img 移动端配置
+msocial:
+  github: {url: https://github.com/bigoceans/, fa: fa-github, color: 333}
+  weibo: {url: https://weibo.com/p/1005052816637892/home?from=page_100505&mod=TAB&is_all=1#place, fa: fa-weibo, color: dd4b39}
+  qq: {url: https://wpa.qq.com/msgrd?v=3&uin=1647383460&site=qq&menu=yes, fa: fa-qq, color: 25c6fe}
+
+donate:
+  paypal:  https://cdn.jsdelivr.net/gh/bigoceans/cdn/img/cnblogs/WeChanQR.jpg
+  alipay: /img/custom/alipay.jpg
+  wechat: /img/custom/wechat.png
+  wechatSQ: /img/custom/weixing.png
+
+# 视频
+movies:
+  url: https://cdn.jsdelivr.net/gh/bigoceans/video
+  # 多个视频用逗号隔开，随机获取。支持的格式目前已知MP4,Flv。其他的可以试下，不保证有用
+  name: mv.mp4,unbroken.mp4
+
+aplayer: 
+  id: 6970849799 # 网易歌单：4934609313 腾讯歌单：6970849799
+  server: tencent # 音乐平台: netease, tencent, kugou, xiami, baidu
+  type: playlist # song, playlist, album, search, artist
+  fixed: true # 开启固定模式
+  mini: true #迷你模式
+  autoplay: false #自动播放，移动端可能出bug
+  loop: all #循环播放模式：all, one,none
+  order: random #播放顺序：list, random
+  preload: none #音乐文件预载入模式，可选项： none, metadata, auto
+  volume: 0.7 #初始音量
+  mutex: true # 该选项开启时，如果同页面有其他 aplayer 播放，该播放器会暂停
+  theme: #f7acbc #播放器颜色
+
+
+# Online contact ##在线聊天
+daovoice: true
+daovoice_app_id: c38f5719 ##这里替换成你DaoVoice上的appid
+
+#2d板娘
+live2d:
+  enable: true
+
+# Local search 搜索
+local_search:
+  enable: true
+
+# 评论系统
+# Valine ##极简留言功能
+# You can get your appid and appkey from https://leancloud.cn
+# more info please open https://valine.js.org
+valine:
+  enable: true ##打开valine评论功能true
+  appId: hEvISJNEVpYHJM50anGRr26y-gzGzoHsz
+  appKey: Tlg7cokSVVOikjKN7DK5XUWr
+  notify: false #评论mail回复提醒
+  verify: true #验证码
+  visitor: false #统计阅读量
+  comment_count: true #统计评论数
+  avatar: monsterid # Gravatar style : mp/identicon/monsterid/wavatar/retro/hide
+  guest_info: nick #,mail,link # custom comment header
+  pageSize: 10
+  palaceholder: 你是我一生只会遇见一次的惊喜 # Comment Box placeholder
